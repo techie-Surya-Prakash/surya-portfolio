@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d18">
+  <meta name="description" content="Surya's Spider-Man inspired developer portfolio.">
+  <title>Surya | Spider-Verse Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="web-lines" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">S</span><span>SURYA<span class="red">.DEV</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> YOUR FRIENDLY NEIGHBORHOOD DEVELOPER</p>
+        <h1>WITH GREAT CODE<br>COMES GREAT <span class="red">POWER.</span></h1>
+        <p class="intro">Hey, I'm <strong>Surya</strong> — a coder, gamer, and aspiring web developer building my own corner of the digital universe.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="btn btn-ghost" href="#contact">Let's connect</a>
+        </div>
+        <div class="hero-tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>CREATIVE MIND</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="photo-frame">
+          <div class="frame-label">SPIDER-VERSE / 001</div>
+          <img src="assets/surya.jpg" alt="Portrait of Surya">
+          <div class="photo-bottom"><span>IDENTITY: SURYA</span><span class="red">ONLINE ●</span></div>
+        </div>
+        <div class="floating-card card-top"><span class="mini-icon">⌘</span><div><small>MODE</small><b>CREATOR</b></div></div>
+        <div class="floating-card card-bottom"><span class="spider-icon">✳</span><div><small>MISSION STATUS</small><b>JUST GETTING STARTED</b></div></div>
+        <span class="hero-cross cross-one">✳</span><span class="hero-cross cross-two">✳</span>
+      </div>
+      <a class="scroll-hint" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / THE PERSON BEHIND THE MASK</p><h2>ABOUT <span class="red">ME</span></h2></div>
+      <div class="about-grid">
+        <div class="about-symbol"><span class="big-spider">✳</span><span class="symbol-caption">NEVER STOP<br>LEARNING.</span></div>
+        <div class="about-text">
+          <h3>A curious mind. A developer in progress.</h3>
+          <p>I'm Surya, passionate about coding, gaming, and creating things on the internet. I'm learning step by step, turning ideas into projects, and improving with every line of code.</p>
+          <p>This portfolio is my personal Spider-Verse: a place to show what I'm learning, what I'm building, and where I'm headed next.</p>
+          <a class="text-link" href="#contact">Have a project in mind? <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / MY TOOLKIT</p><h2>SKILLS & <span class="red">POWERS</span></h2></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-number">01</span><div class="skill-icon">&lt;/&gt;</div><h3>Web Development</h3><p>Building websites with structure, style, and interactive details.</p><div class="skill-line"><span style="width:75%"></span></div><small>LEARNING & BUILDING</small></article>
+        <article class="skill-card"><span class="skill-number">02</span><div class="skill-icon">⌘</div><h3>Programming</h3><p>Practising programming fundamentals and solving problems step by step.</p><div class="skill-line"><span style="width:62%"></span></div><small>GROWING EVERY DAY</small></article>
+        <article class="skill-card"><span class="skill-number">03</span><div class="skill-icon">✦</div><h3>Creative Design</h3><p>Exploring visual ideas, gaming aesthetics, and memorable web experiences.</p><div class="skill-line"><span style="width:70%"></span></div><small>EXPERIMENTING</small></article>
+      </div>
+      <p class="note">These indicators are visual placeholders—edit them as your skills grow.</p>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / MISSIONS COMPLETED</p><h2>FEATURED <span class="red">PROJECTS</span></h2></div>
+      <div class="project-grid">
+        <article class="project-card project-red"><div class="project-art"><span class="project-code">&lt;WEB /&gt;</span><span class="art-spider">✳</span></div><div class="project-info"><p class="project-type">01 — PERSONAL BRAND</p><h3>My Portfolio</h3><p>A Spider-Man-inspired space for my profile, skills, and work.</p><div class="project-footer"><span>HTML · CSS · JS</span><a href="#home" aria-label="Back to portfolio top">↗</a></div></div></article>
+        <article class="project-card project-blue"><div class="project-art"><span class="project-code">GAME_MODE</span><span class="game-symbol">▶</span></div><div class="project-info"><p class="project-type">02 — CONCEPT PROJECT</p><h3>Gaming Hub</h3><p>A future home for gaming content, favourite titles, and updates.</p><div class="project-footer"><span>DESIGN CONCEPT</span><a href="#contact" aria-label="Ask about Gaming Hub">↗</a></div></div></article>
+        <article class="project-card project-dark"><div class="project-art"><span class="project-code">010101</span><span class="code-symbol">{ }</span></div><div class="project-info"><p class="project-type">03 — PRACTICE</p><h3>Code Lab</h3><p>A collection of coding exercises and small experiments as I learn.</p><div class="project-footer"><span>PROGRAMMING</span><a href="#contact" aria-label="Ask about Code Lab">↗</a></div></div></article>
+      </div>
+      <p class="note">The last two cards are starter concepts. Replace them with real projects and links when ready.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">04 / SEND A SIGNAL</p>
+        <h2>LET'S BUILD<br>SOMETHING <span class="red">EPIC.</span></h2>
+        <p>Got an idea, collaboration, or just want to talk code? Reach out.</p>
+        <a class="btn btn-primary" href="mailto:your-email@example.com">Email me <span>↗</span></a>
+        <p class="email-hint">Replace <code>your-email@example.com</code> in index.html with your email address.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">S</span><span>SURYA<span class="red">.DEV</span></span></a><p>Made with code, creativity & a little Spider-Verse energy.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
